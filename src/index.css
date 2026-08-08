@@ -1,0 +1,28 @@
+:root {
+  --espresso: #3C2A21;
+  --espresso-deep: #2A1D17;
+  --brass: #B08D57;
+  --brass-light: #D4B483;
+  --paper: #F6EFE4;
+  --paper-dim: #EDE2D0;
+  --ink: #2B2118;
+  --ink-soft: #6B5A4A;
+  --ok: #6B7A4F;
+
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
